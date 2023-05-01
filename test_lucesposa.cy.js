@@ -2,7 +2,7 @@
 
 describe('Visit lucesposa.com page', () => {
   before(() => {
-  cy.visit('https://lucesposa.com')
+  cy.visit('https://lucesposa.com/')
 });
 
   it('test website^ https://lucesposa.com', () => {
